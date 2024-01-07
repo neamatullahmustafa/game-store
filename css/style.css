@@ -1,0 +1,109 @@
+body {
+    font-family: 'Electrolize', sans-serif;
+    position: relative;
+}
+
+#background {
+    background-image: url("../images/wraper.png");
+    background-color: #272B30;
+    height: 25vh;
+}
+
+/* ----------------------------- */
+nav {
+    /* position:sticky; */
+    /* z-index: 3; */
+    top:0;
+    background-color: #3A497B;
+    width: 80%;
+    margin: auto;
+    border-radius: 25px;
+    transform: translateY(-50%);
+    box-shadow: 1px 1px 20px black;
+}
+
+
+.navbar-brand {
+    color: white;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar-brand:hover {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+    cursor: pointer;
+}
+
+.navbar-toggler {
+    border: 1px solid white;
+    color: white !important;
+}
+
+
+.navbar-toggler:focus {
+    box-shadow: none;
+}
+
+/* ------------------------- */
+.card {
+    background-color: transparent;
+    padding-top: 10px;
+    transition: 0.5s;
+    height: 350px;
+}
+
+.card-title {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+}
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.card-title span {
+    background-color: #3A497B;
+    transition: 0.5s;
+    font-size: 10px;
+    height: 15px;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.card:hover .card-title span {
+    background-color: #0D6EFD;
+}
+
+.card-text {
+    color: #737f8b;
+    font-size: 12px;
+    height: 130px;
+    overflow: hidden;
+    text-align: center;
+}
+
+.card-footer .badge {
+    background-color: #32383E;
+    font-size: 10px;
+}
+
+/* ---------------------- */
+#gamesDetails {
+    position: absolute;
+    padding: 5%;
+
+    top: 0;
+    background-color: #272B30;
+    width: 100%;
+}
