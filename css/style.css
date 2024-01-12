@@ -5,18 +5,20 @@ body {
 
 #background {
     background-image: url("../images/wraper.png");
+    background-position: center;
+    background-size: cover;
     background-color: #272B30;
-    height: 25vh;
+    height: 200px;
 }
 
 /* ----------------------------- */
-nav {
-    /* position:sticky; */
-    /* z-index: 3; */
+.navbar {
+    position:relative;
+    z-index: 2;
     top:0;
     background-color: #3A497B;
     width: 80%;
-    margin: auto;
+   left: 10%;
     border-radius: 25px;
     transform: translateY(-50%);
     box-shadow: 1px 1px 20px black;
@@ -100,10 +102,10 @@ nav {
 
 /* ---------------------- */
 #gamesDetails {
-    position: absolute;
+    position: fixed;
     padding: 5%;
-
+z-index: 5;
     top: 0;
-    background-color: #272B30;
+height: 100vh;    background-color: #272B30;
     width: 100%;
 }
